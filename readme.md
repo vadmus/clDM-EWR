@@ -7,6 +7,7 @@ Digital Micrograph plugin for acquisition and exit wave reconstruction of focal 
 1. First of all you need Digital Micrograph SDK (you can find it by request on Gatan offisial site)
 2. OpenCL 
 3. clAmdFft
+
 P.S. I think that's all
 
 ###Features
