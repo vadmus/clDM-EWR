@@ -4,11 +4,11 @@ Digital Micrograph plugin for acquisition and exit wave reconstruction of focal 
 
 ###What do you need
 
-1. First of all you need Digital Micrograph SDK (you can find it by request on Gatan offisial site)
-2. OpenCL 
+1. First of all you need Digital Micrograph ver_2.x x64
+2. Digital Micrograph SDK 2.x (available by request on Gatan offisial site)
+2. OpenCL SDK (for example, intel openCL SDK 1.7)
 3. clAmdFft
-
-P.S. I think that's all
+4. clFFT
 
 ###Features
 
@@ -19,3 +19,12 @@ P.S. I think that's all
 5. Very customisable (accuracy or speed).
 6. Image alignment can be performed via phase correlation, or Mutual Information.
 7. Includes functionality to calibrate focal increment via automated diffractogram matching procedure.
+
+###Installation
+
+To install this plugin copy clDM-EWR.dll and clFFT.dll to plugin folder (*)
+
+* for windows 7 you can find it here:
+C:\Program Files\Gatan\Plugins
+or here
+C:\ProgramData\Gatan\Plugins
